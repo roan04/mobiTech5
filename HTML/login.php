@@ -14,7 +14,7 @@
         <img src="../Pictures/logo.png" class="avatar">
         <h1>Login Here </h1>
 
-        <form action="../Includes/login.inc.php" method="post">
+        <form action="process.php" method="get">
 
             <label for="uname">Email</label>
             <input type="email" name="uname" placeholder="Enter Email">
@@ -26,12 +26,12 @@
             <label for="rememberMe">Remember me</label>
 
 
-            <input type="submit" name="submit" value="Login">
+            <input type="submit" name="" value="Login">
 
             <br>
             <a href="">Forgot password?</a>
             <br>
-            <a href="register.php">Don't have an account?</a>
+            <a href="register.html">Don't have an account?</a>
 
         </form>
     </div>
