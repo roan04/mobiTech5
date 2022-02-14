@@ -27,9 +27,9 @@
   <link href="../CSS/font-awesome.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
-  <link href="../CSS/style.css" rel="stylesheet" />
+  <link href="CSS/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="../CSS/responsive.css" rel="stylesheet" />
+  <link href="CSS/responsive.css" rel="stylesheet" />
 
 </head>
 
