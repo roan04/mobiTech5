@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login | MobiTech </title>
+    <link rel="stylesheet" type="text/css" href="../CSS/styleLogin.css">
+
+</head>
+
+
+
+<body>
+    <div class="loginbox">
+        <img src="../Pictures/logo.png" class="avatar">
+        <h1>Login Here </h1>
+
+        <form action="../Includes/login.inc.php" method="post">
+
+            <label for="uname">Email</label>
+            <input type="email" name="uname" placeholder="Enter Email">
+
+            <label for="password">Passsword</label>
+            <input type="password" name="password" placeholder="Enter password">
+
+            <input type="checkbox" value="lsRememberMe" id="rememberMe">
+            <label for="rememberMe">Remember me</label>
+
+
+            <input type="submit" name="submit" value="Login">
+
+            <br>
+            <a href="">Forgot password?</a>
+            <br>
+            <a href="register.php">Don't have an account?</a>
+
+        </form>
+    </div>
+
+<?php
+
+?>
+
+</body>
+
+</html>
